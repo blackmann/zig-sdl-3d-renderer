@@ -24,7 +24,7 @@ fn process_input() void {
 
 fn update() void {
     display.clear_buffer(0xff444444);
-    offset_x += 1;
+    offset_x += 5;
     display.draw_rect(.{ .width = 30, .height = 30 }, .{.x = 50 + offset_x, .y = 50}, 0xffffffff);
 }
 
